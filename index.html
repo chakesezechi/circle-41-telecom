@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phonie</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    <h2>make some magic here!!</h2>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<body>
+
+  <header>
+    <h3 class="title">
+      Circle-41 HACKHATHON - Phonie
+    </h3>
+  </header>
+
+  <div class="container">
+    <div class="form-container">
+      <form action="#" id="form">
+
+        <input type="tel" required id="phone" name="phone" pattern="[^A-Za-z]{11,14}"
+          title="11 to 14 digits only, no alphabets" placeholder="Enter Phone Number">
+
+        <button type="submit" class="btn" id="button" value="number">Find provider</button>
+
+        <p id="result">Simply input the desired phone number you wish to get the provider of here with or without the
+          country code</p>
+      </form>
+    </div>
+
+    <div class="img-container">
+      <img src="./img/PHONIE.png" alt="provider/logo" id="image">
+    </div>
+  </div>
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>
